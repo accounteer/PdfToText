@@ -14,15 +14,7 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "PdfToText.php",
-            "exception/",
-            "object/",
-            "util/",
-            "CIDTables/",
-            "FontMetrics/",
-            "FormTemplates/"
-        ]
+        "classmap": ["."]
     },
     "minimum-stability": "stable",
     "require": {}
