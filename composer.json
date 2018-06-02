@@ -1,0 +1,29 @@
+{
+    "name": "accounteer/pdf-to-text",
+    "description": "The PdfToText class has been designed to extract textual contents from a PDF file.",
+    "type": "library",
+    "license": "GNU Lesser General Public License v3.0",
+    "authors": [
+        {
+            "name": "Christian Vigh",
+            "email": "no@email.com"
+        },
+        {
+            "name": "Gboyega Dada",
+            "email": "gboyega@accounteer.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "PdfToText.php",
+            "exception/",
+            "object/",
+            "util/",
+            "CIDTables/",
+            "FontMetrics/",
+            "FormTemplates/"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
